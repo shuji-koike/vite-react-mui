@@ -1,0 +1,19 @@
+{
+  "name": "@shuji-koike/vite-react-mui",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "build": "yarn --cwd ./packages/frontend vite build",
+    "type-check": "yarn tsc --build packages/*"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@shuji-koike/boilerplate": "^1.8.0",
+    "@shuji-koike/eslint-config": "^1.8.0"
+  }
+}

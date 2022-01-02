@@ -1,0 +1,31 @@
+{
+  "name": "@shuji-koike/vite-react-mui-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "start": "vite dev --port 4000",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@mui/lab": "^5.0.0-alpha.62",
+    "@mui/material": "^5.2.6",
+    "@mui/system": "^5.2.8",
+    "@mui/x-data-grid": "^5.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.1.1",
+    "react-router-dom": "^6.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@shuji-koike/vite-react": "^1.8.0"
+  }
+}

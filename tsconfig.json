@@ -1,0 +1,5 @@
+{
+  "extends": "@shuji-koike/boilerplate/tsconfig.base.json",
+  "references": [{ "path": "./packages/frontend" }],
+  "files": []
+}

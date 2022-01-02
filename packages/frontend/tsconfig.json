@@ -1,0 +1,10 @@
+{
+  "extends": "@shuji-koike/boilerplate/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["vite/client", "@emotion/react/types/css-prop"]
+  },
+  "exclude": ["**/node_modules", "**/dist"]
+}
