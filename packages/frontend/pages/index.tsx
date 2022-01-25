@@ -12,8 +12,9 @@ export default function IndexPage() {
       <Button variant="outlined">outlined</Button>
       <Button variant="text">text</Button>
       <Button variant="hoge">hoge</Button>
-      <StyledButton>StyledButton</StyledButton>
       <Button className="hoge">hoge</Button>
+      <StyledButton>StyledButton</StyledButton>
+      <Button css={buttonStyle}>buttonStyle</Button>
       <Button
         css={css`
           color: green;
@@ -40,6 +41,11 @@ export default function IndexPage() {
 
 const StyledButton = styled(Button)`
   color: blue;
+`
+
+const buttonStyle = css`
+  color: blue;
+  color: red;
 `
 
 const Main = styled.main`
