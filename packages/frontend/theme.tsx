@@ -25,7 +25,9 @@ declare module "@mui/material/Button" {
 
 export const theme = createTheme({
   palette: {
-    mode: "light",
+    primary: {
+      main: "#454545",
+    },
   },
   components: {
     MuiButton: {
