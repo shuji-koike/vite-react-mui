@@ -60,7 +60,6 @@ export const theme = createTheme({
         disableExtendRowFullWidth: true,
         hideFooterPagination: true,
         hideFooterSelectedRowCount: true,
-        hideFooterRowCount: true,
         components: {
           NoRowsOverlay: () => <>NoRowsOverlay</>,
         },

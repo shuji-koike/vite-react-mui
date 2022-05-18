@@ -1,7 +1,7 @@
 import { css } from "@emotion/react"
 import styled from "@emotion/styled"
 import { Button, buttonClasses } from "@mui/material"
-import { DataGrid } from "@mui/x-data-grid"
+// import { DataGrid } from "@mui/x-data-grid"
 import React from "react"
 
 export default function IndexPage() {
@@ -23,7 +23,7 @@ export default function IndexPage() {
         css attribute
       </Button>
       <Button sx={{ color: ["red", "blue", "green"] }}>sx</Button>
-      <DataGrid
+      {/* <DataGrid
         checkboxSelection
         columns={[
           { field: "col1", headerName: "Column 1", width: 150 },
@@ -34,7 +34,7 @@ export default function IndexPage() {
           { id: 2, col1: "DataGridPro", col2: "is Awesome" },
           { id: 3, col1: "MUI", col2: "is Amazing" },
         ]}
-      />
+      /> */}
     </Main>
   )
 }
